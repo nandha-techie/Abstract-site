@@ -1,0 +1,64 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    /* max-width: 100%; */
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.topnav{
+    justify-content: space-between;
+    padding: 1.2rem 5rem 1.2rem 5rem;
+    background-color: black;
+    align-items: center;
+}
+.logo_section{
+    /* width: 15rem; */
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.logo_title{
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    border-left: 2px solid #fff;
+    padding-left: 15px;
+}
+.logo_title:hover{
+    text-decoration: underline;
+}
+.top_btn{
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1.5px solid #ccc;
+}
+.btn_request{
+    background-color: #191a1b;
+    margin-right: 5px;
+}
+.btn_signIn{
+    background-color: #4C5FD5;
+    transition: 0.5s;
+    padding: 10px 25px;
+}
+.btn_signIn:hover{
+    background-color: #fff;
+    color: #191a1b;
+    transition: 0.5s;
+}
