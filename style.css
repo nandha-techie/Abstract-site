@@ -68,6 +68,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+.form_search{
+    width: 80%;
+}
 .main_title{
     font-size: 5rem;
     font-weight: 600;
@@ -76,8 +79,8 @@ body{
 .form_input{
     display: inline-block;
     min-width: 200px;
-    /* max-width: 100%; */
-    width: 45rem;
+    width: 70%;
+    margin-left: 15%;
     padding: 1rem 1rem;
     outline: none;
     border-radius: 5px;
