@@ -12,18 +12,16 @@ body{
     width: 100%;
 }
 .container{
-    /* max-width: 100%; */
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
 }
 .topnav{
     justify-content: space-between;
     padding: 1.2rem 5rem 1.2rem 5rem;
     background-color: black;
     align-items: center;
-}
-.logo_section{
-    /* width: 15rem; */
 }
 .logo {
     width: 50px;
@@ -61,4 +59,109 @@ body{
     background-color: #fff;
     color: #191a1b;
     transition: 0.5s;
+}
+.main{
+    min-height: 23rem;
+    background-color: #dadbf1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_title{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.form_input{
+    display: inline-block;
+    min-width: 200px;
+    /* max-width: 100%; */
+    width: 45rem;
+    padding: 1rem 1rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.6rem;
+    transition: 0.5s;
+}
+.form_input:focus, .form_input:hover{
+    outline: none;
+    border-color: #4C5FD5 ;
+    transition: 0.5s;
+}
+#right_arrow{
+    margin-left: -3rem;
+}
+.form_search #right_arrow {
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+#input_search:hover + #right_arrow{
+    color: #4C5FD5;
+    transition: 0.5s;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: space-between;
+}
+.category_items{
+    flex: 1;
+    flex-basis: 45%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.category_img{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+.category_img img{
+    max-width: 100%;
+    max-height: 120px;
+    height: auto;
+}
+.category_description h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.category_description p{
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #191a1b;
+}
+.category_description a{
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #4C5FD5;
+    text-decoration: none;
+}
+.category_description a:hover{
+    text-decoration: underline;
+}
+.footer_wrapper{
+    padding: 1.2rem 5rem 1.2rem 5rem; 
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.footer_column{
+    display: flex;
+    flex-flow: column;
+}
+.footer_column h3{
+    color: white;
+    font-size: 1.8rem;
+}
+.footer_column a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.footer_column a:hover{
+    text-decoration: underline;
 }
