@@ -169,6 +169,12 @@ body{
         border: 1px solid #ccc;
         margin-bottom: 5px;
     }
+    .category_description p{
+        font-size: 1.2rem;
+    }
+    .category_description a{
+        font-size: 1rem;
+    }
     .footer_wrapper{
         padding: 1rem;
         display: block;
